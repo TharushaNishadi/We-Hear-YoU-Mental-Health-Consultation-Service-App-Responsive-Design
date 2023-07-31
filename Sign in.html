@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>We Hear YoU Mental Health Consultation Service</title>
+    <link rel="stylesheet" href="styles4.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"rel="stylesheet"/>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <div class="logo">
+                <img src="images\logo design.svg" alt="">
+            </div>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span><span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="/" class="navbar__links1">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="Mental Illness.html" class="navbar__links">Mental Illness</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/Schedule.html" class="navbar__links">Schedule</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="Profile.html" class="navbar__links">Profile</a>
+                </li>
+                <li class="navbar__btn">
+                  <span class="button1" id="form-open">Sign in</span>
+                </li>
+                <div class="search-icon">
+                  <span class="fas fa-search"></span>
+                </div>
+                <div class="cancel-icon">
+                  <span class="fas fa-times"></span>
+                </div>
+                <form action="#">
+                  <input type="search" class="search-data" placeholder="Search" required>
+                  <button type="submit" class="fas fa-search"></button>
+                </form>
+            </ul>
+    </nav>
+
+    <!-- Home -->
+    <section class="home">
+      <div class="form_container">
+        <i class="uil uil-times form_close"></i>
+        <!-- Signin From -->
+        <div class="form signin_form">
+          <form action="#">
+            <h2>Sign in</h2>
+
+            <div class="input_box">
+              <input type="email" placeholder="Enter your email" required />
+              <i class="uil uil-envelope-alt email"></i>
+            </div>
+            <div class="input_box">
+              <input type="password" placeholder="Enter your password" required />
+              <i class="uil uil-lock password"></i>
+              <i class="uil uil-eye-slash pw_hide"></i>
+            </div>
+
+            <div class="option_field">
+              <span class="checkbox">
+                <input type="checkbox" id="check" />
+                <label for="check">Remember me</label>
+              </span>
+              <a href="#" class="forgot_pw">Forgot password?</a>
+            </div>
+
+            <button class="button">Signin Now</button>
+
+            <div class="signin_signup">Don't have an account? <a href="#" id="signup">Signup</a></div>
+          </form>
+        </div>
+
+        <!-- Signup From -->
+        <div class="form signup_form">
+          <form action="#">
+            <h2>Signup</h2>
+
+            <div class="input_box">
+              <input type="email" placeholder="Enter your email" required />
+              <i class="uil uil-envelope-alt email"></i>
+            </div>
+            <div class="input_box">
+              <input type="password" placeholder="Create password" required />
+              <i class="uil uil-lock password"></i>
+              <i class="uil uil-eye-slash pw_hide"></i>
+            </div>
+            <div class="input_box">
+              <input type="password" placeholder="Confirm password" required />
+              <i class="uil uil-lock password"></i>
+              <i class="uil uil-eye-slash pw_hide"></i>
+            </div>
+
+            <button class="button">Signup Now</button>
+
+            <div class="signin_signup">Already have an account? <a href="#" id="signin">Signin</a></div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <script src="https://kit.fontawesome.com/25bdb95970.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
